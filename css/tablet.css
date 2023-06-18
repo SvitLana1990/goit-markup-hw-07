@@ -1,0 +1,72 @@
+.container {
+    max-width: 768px;
+}
+
+.hero-main-page {
+    max-width: 768px;
+    height: 436px;
+}
+
+.hero-title {
+    max-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+}
+
+.hero-button {
+    margin-top: 36px;
+}
+
+.values-title {
+    text-align: start;
+}
+
+.values-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: unset;
+    gap: 72px 24px;
+}
+
+.values-item {
+    width: 100%;
+    width: calc((100% - 24px) / 2);
+}
+
+.team-container {
+    padding: 0 16px;
+    max-width: 584px;
+}
+
+.team-list {
+    display: flex;
+    flex-direction: unset;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+    justify-content: center;
+}
+
+.team-item {
+    width: 100%;
+    width: calc((100% - 24px) / 2);
+}
+
+.customers {
+    padding: 96px 108px;
+}
+
+.customers-container {
+    max-width: 552px;
+}
+
+.customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+}
+
+.customers-item {
+    width: 100%;
+    width: calc((100% - 48px) / 3);
+    height: 88px;
+}
