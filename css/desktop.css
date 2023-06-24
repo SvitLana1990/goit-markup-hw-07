@@ -1,11 +1,7 @@
 .container {
     max-width: 1158px;
-    margin: 0 auto;
     padding: 0 15px;
-}
-
-.header {
-    max-width: 1158px;
+    margin: 0 auto;
 }
 
 .header-logo {
@@ -85,7 +81,6 @@
 }
 
 .values-title {
-    text-align: center;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -149,17 +144,13 @@
     height: 88px;
 }
 
-.footer-section {
-    gap: 0;
+.footer {
+    padding: 100px 0;
 }
 
 .footer-form-container {
     max-width: 453px;
     margin-left: 80px
-}
-
-.footer-text {
-    margin-bottom: 0;
 }
 
 .footer-social-container {
