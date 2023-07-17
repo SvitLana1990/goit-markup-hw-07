@@ -202,13 +202,14 @@ img {
 
 .mob-menu .close-button {
     position: absolute;
-    top: 24px;
-    right: 24px;
+    top: -60px;
+    right: -4px;
     margin-left: auto;
     background-color: inherit;
 }
 
 .mob-menu-wraper {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
