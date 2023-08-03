@@ -67,6 +67,97 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="menu-open-btn js-open-menu">
+          <svg class="btn-hamburger" width="32" height="22">
+            <use href="./images/icons.svg#icon-menu-hamburger"></use>
+          </svg>
+        </button>
+        <div class="mob-menu js-menu-container">
+          <div class="mob-menu-wraper">
+            <button type="button" class="close-button js-close-menu">
+              <svg class="modal-close-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-button"></use>
+              </svg>
+            </button>
+            <ul class="list">
+              <li class="mob-menu-item">
+                <a href="./index.html" class="mob-menu-link link">Studio</a>
+              </li>
+              <li class="mob-menu-item">
+                <a href="./portfolio.html" class="mob-menu-link current link"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mob-menu-item">
+                <a href="" class="mob-menu-link link">Contacts</a>
+              </li>
+            </ul>
+            <div>
+              <address class="mob-menu-address">
+                <ul class="mob-menu-address-list list">
+                  <li>
+                    <a href="tel:+110001111111" class="mob-menu-tel-link link"
+                      >+11 (000) 111-11-11</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="mailto:info@devstudio.com"
+                      class="mob-menu-address-link link"
+                      >info@devstudio.com</a
+                    >
+                  </li>
+                </ul>
+              </address>
+              <ul class="mob-social-container list">
+                <li class="social-list_item">
+                  <a
+                    href="#"
+                    class="social-list_item-link"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                  >
+                    <svg class="team-social_icon" width="16" height="16">
+                      <use href="./images/icons.svg#icon-instagram"></use></svg
+                  ></a>
+                </li>
+                <li class="social-list_item">
+                  <a
+                    href="#"
+                    class="social-list_item-link"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                  >
+                    <svg class="team-social_icon" width="16" height="16">
+                      <use href="./images/icons.svg#icon-twitter"></use></svg
+                  ></a>
+                </li>
+                <li class="social-list_item">
+                  <a
+                    href="#"
+                    class="social-list_item-link"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                  >
+                    <svg class="team-social_icon" width="16" height="16">
+                      <use href="./images/icons.svg#icon-facebook"></use></svg
+                  ></a>
+                </li>
+                <li class="social-list_item">
+                  <a
+                    href="#"
+                    class="social-list_item-link"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                  >
+                    <svg class="team-social_icon" width="16" height="16">
+                      <use href="./images/icons.svg#icon-linkedin"></use></svg
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -90,7 +181,7 @@
               <button type="button" class="hero-btn">Marketing</button>
             </li>
           </ul>
-          <ul class="portfolio-list list">
+          <!-- <ul class="portfolio-list list">
             <li class="portfolio-item">
               <a href="" class="portfolio-link link">
                 <div class="overlay-container">
@@ -280,7 +371,7 @@
                 </div></a
               >
             </li>
-          </ul>
+          </ul> -->
         </div>
       </section>
     </main>
@@ -361,5 +452,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/mobile-menu.js" type="module"></script>
   </body>
 </html>

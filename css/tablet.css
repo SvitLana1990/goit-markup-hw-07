@@ -60,6 +60,15 @@
     margin-top: 36px;
 }
 
+.hero {
+    padding: 64px 0 96px;
+}
+
+.hero-btn-list {
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
 .values-title {
     text-align: start;
 }

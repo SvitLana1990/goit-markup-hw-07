@@ -26,6 +26,16 @@
     letter-spacing: 0.02em;
 }
 
+.hero {
+    padding: 100px 0 120px;
+}
+
+.hero-btn-list {
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
 .hero-main-page {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image.jpg);
     max-width: 1440px;

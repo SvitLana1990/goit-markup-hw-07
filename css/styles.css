@@ -285,7 +285,7 @@ img {
 }
 
 .hero {
-    padding: 96px 0 120px;
+    padding: 48px 0;
 }
 
 .hero-main-page {
@@ -376,9 +376,9 @@ img {
 
 .hero-btn-list {
     display: flex;
-    justify-content: center;
-    gap: 24px;
-    margin-bottom: 72px;
+    flex-wrap: wrap;
+    gap: 16px 24px;
+    margin-bottom: 48px;
 }
 
 .hero-btn-item {
